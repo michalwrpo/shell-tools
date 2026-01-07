@@ -117,7 +117,7 @@ int main(int argc, char** argv) {
 
     files = realloc(files, sizeof(char*) * fileno);
 
-    if (!files) {
+    if (!files && fileno) {
         perror("realloc failure");
         exit(EXIT_FAILURE);
     }
