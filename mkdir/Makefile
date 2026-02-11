@@ -6,8 +6,8 @@ CC_WARN := -Wall -Wextra -Werror -Wpedantic -Wno-format-truncation
 CFLAGS := $(CC_STANDARD) $(CC_OPT) $(CC_WARN)
 
 .PHONY: all
-all: mls.c
-	$(CC) $(CFLAGS) $^ -o mls
+all: *.c 
+	$(CC) $(CFLAGS) $^ -o mmkdir
 
 .PHONY: clean
 clean:
