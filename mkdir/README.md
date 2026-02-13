@@ -1,5 +1,5 @@
 # mmkdir
-## Version 1.0.0
+## Version 1.0.1
 *Made by Michał Waluś*
 
 Simple version of `mkdir`. Creates directories at given input paths. Accepts multiple files as input.
