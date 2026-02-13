@@ -1,12 +1,12 @@
 # mecho
-## Version 1.1.0
+## Version 1.1.1
 *Made by Michał Waluś*
 
 My version of `echo`. Outputs given given text to stdout.
 
 Usage:
 ```
-./mls [OPTIONS]... [MESSAGE]
+./mecho [OPTIONS]... [MESSAGE]
 ```
 
 Current version accepts the following flags:

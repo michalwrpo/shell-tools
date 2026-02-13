@@ -12,4 +12,4 @@ all: mecho.c numbases.c strnum.c
 
 .PHONY: clean
 clean:
-	rm -rf *.o mls
+	rm -rf *.o mecho
