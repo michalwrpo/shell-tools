@@ -11,4 +11,4 @@ all: *.c
 
 .PHONY: clean
 clean:
-	rm -rf *.o mls
+	rm -rf *.o mtouch
