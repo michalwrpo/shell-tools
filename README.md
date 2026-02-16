@@ -7,5 +7,6 @@ Currently implemented:
 - echo
 - ls
 - mkdir
+- mkfifo
 - touch
 - yes
