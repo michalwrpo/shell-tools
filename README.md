@@ -7,6 +7,7 @@ Due to this being mostly treated by me as a learning opportunity, some (most) im
 Currently implemented:
 - cat
 - echo
+- exec
 - ls
 - mkdir
 - mkfifo

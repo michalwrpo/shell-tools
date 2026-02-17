@@ -1,0 +1,14 @@
+CC := gcc
+CC_STANDARD := -std=gnu23
+CC_OPT := -m64 -O3
+CC_WARN := -Wall -Wextra -Werror -Wpedantic -Wno-format-truncation -Wno-maybe-uninitialized
+
+CFLAGS := $(CC_STANDARD) $(CC_OPT) $(CC_WARN)
+
+.PHONY: all
+all: *.c 
+	$(CC) $(CFLAGS) $^ -o mexec
+
+.PHONY: clean
+clean:
+	rm -rf *.o mexec
